@@ -85,7 +85,6 @@ public class Project {
 
     public void setEnd_date(Date end_date) {
         this.end_date = end_date;
-    
     }
 
     public Date getCreated_At() {
