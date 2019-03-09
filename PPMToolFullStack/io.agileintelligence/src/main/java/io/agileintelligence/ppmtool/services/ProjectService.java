@@ -57,6 +57,10 @@ public class ProjectService {
         }catch (Exception e){
             throw new ProjectIdException("Project ID '"+project.getProjectIdentifier().toUpperCase()+"' already exists");
         }
+        
+        //plist.filter( x == 3).sort(by assending)
+        
+        //for each item in the list if the value is == 3, put it in a new list and sort by assending order
 
     }
 
